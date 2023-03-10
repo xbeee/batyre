@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+<div class="wrapper">
+
+    <div class="span-out">
+        <div class="a">
+            <span class="texta">Значение а:</span>
+             <input type="text" id="valueA">;
+            
+        </div>
+        
+        <div class="b">
+            <span class="textb">Значение b:</span>
+             <input type="text" id="valueB">;
+            
+        </div>    
+    </div>
+
+    <div class="button-operation">
+        <div class="block1">
+            <button type="submit" id="submitab" onclick="summa()">Сложение</button>
+            <button type="submit" id="submit" onclick="raznostab()">Разность a-b</button>
+        </div>
+
+        <div class="block2">
+            <button type="submit" id="submitab" onclick="raznostba()">Разность b-a</button>
+            <button type="submit" id="submitab" onclick="delenieab()">Деление a/b</button>
+        </div>
+
+        <div class="block3">
+            <button type="submit" id="submitab" onclick="delenieba()">Деление b/a</button>
+            <button type="submit" id="submitab" onclick="umnoz()">Умножение a*b</button>
+            
+        </div>
+
+        <div class="block4">
+            <button type="submit" id="submit" onclick="location.reload(); return false;">Заново</button>
+        </div>
+
+        <div>
+            ответ:
+            <span id="otvet"></span>
+        </div>
+    
+    </div>
+
+    
+    
+    <script src="script.js">
+        
+    </script>
+</div>
+    
+</body>
+</html>
