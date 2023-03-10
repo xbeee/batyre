@@ -1,0 +1,43 @@
+
+let a;
+let b;
+function input()
+{
+    a = Number(document.getElementById('valueA').value);
+    b = Number(document.getElementById('valueB').value);
+}
+function summa(){
+  input();
+  document.getElementById('otvet').innerHTML = `${a} + ${b} = ${a + b}`;
+  otvet.style.background = "blue";
+}
+
+function raznostab(){
+  input();
+  document.getElementById('otvet').innerHTML = `${a} - ${b} = ${a - b}`;
+  otvet.style.background = "red";
+}
+
+function raznostba(){
+  input();
+  document.getElementById('otvet').innerHTML = `${b} - ${a} = ${b - a}`;
+  otvet.style.background = "green";
+}
+
+function delenieab(){
+  input();
+  document.getElementById('otvet').innerHTML = `${a} / ${b} = ${a / b}`;
+  otvet.style.background = "grey";
+}
+
+function delenieba(){
+  input();
+  document.getElementById('otvet').innerHTML = `${b} / ${a} = ${b / a}`;
+  otvet.style.background = "yellow";
+}
+
+function umnoz(){
+  input();
+  document.getElementById('otvet').innerHTML = `${a} * ${b} = ${a * b}`;
+  otvet.style.background = "red";
+}
